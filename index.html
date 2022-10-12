@@ -7,14 +7,14 @@
         <title>Portfolio | Vincent Muliawan</title>
         <link rel="stylesheet" href="dist/output.css" />
     </head>
-    <body>
+    <body bgcolor="#27272a">
         <!-- Header start -->
         <header class="bg-transparent absolute top-0 w-full left-0 flex items-center z-10">
             <div class="container">
                 <div class="flex items-center justify-between relative">
                     <div class="px-4 py-6">
-                        <a href="#home" class="text-primary font-bold drop-shadow-sm lg:text-xl"
-                            >vMuliawan</a
+                        <a href="#home" class="text-primary font-bold drop-shadow-sm lg:text-xl text-xl border-2 p-1"
+                            >FEI</a
                         >
                     </div>
                     <div class="flex items-center px-4">
@@ -25,45 +25,45 @@
                             type="button"
                         >
                             <span
-                                class="bg-black w-7 h-0.5 block my-2 transition duration-500 origin-top-left"
+                                class="bg-primary w-7 h-0.5 block my-2 transition duration-500 origin-top-left"
                             ></span>
                             <span
-                                class="bg-black w-7 h-0.5 block my-2 transition duration-500"
+                                class="bg-primary w-7 h-0.5 block my-2 transition duration-500"
                             ></span>
                             <span
-                                class="bg-black w-7 h-0.5 block my-2 transition duration-500 origin-bottom-left"
+                                class="bg-primary w-7 h-0.5 block my-2 transition duration-500 origin-bottom-left"
                             ></span>
                         </button>
                         <nav
                             id="nav-menu"
-                            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none"
+                            class="hidden absolute py-5 bg-zinc-800 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none"
                         >
                             <ul class="block lg:flex">
                                 <li class="group border-b-1">
                                     <a
                                         href="#hero"
-                                        class="text-base font-semibold text-black py-2 mx-8 group-hover:text-primary flex group-active:text-red-700 drop-shadow-lg transition duration-500 scroll-transition"
+                                        class="text-base font-semibold text-primary py-2 mx-8 group-hover:text-cyan-500 flex group-active:text-cyan-300 drop-shadow-lg transition duration-500 scroll-transition"
                                         >Introducing</a
                                     >
                                 </li>
                                 <li class="group border-b-1">
                                     <a
                                         href="#about"
-                                        class="text-base font-semibold text-black py-2 mx-8 group-hover:text-primary flex group-active:text-red-700 drop-shadow-lg transition duration-500 scroll-transition"
+                                        class="text-base font-semibold text-primary py-2 mx-8 group-hover:text-cyan-500 flex group-active:text-cyan-300 drop-shadow-lg transition duration-500 scroll-transition"
                                         >About Me</a
                                     >
                                 </li>
                                 <li class="group border-b-1">
                                     <a
                                         href="#portfolio"
-                                        class="text-base font-semibold text-black py-2 mx-8 group-hover:text-primary flex group-active:text-red-700 drop-shadow-lg transition duration-500 scroll-transition"
+                                        class="text-base font-semibold text-primary py-2 mx-8 group-hover:text-cyan-500 flex group-active:text-cyan-300 drop-shadow-lg transition duration-500 scroll-transition"
                                         >Portfolio</a
                                     >
                                 </li>
                                 <li class="group">
                                     <a
                                         href="#contact"
-                                        class="text-base font-semibold text-black py-2 mx-8 group-hover:text-primary flex group-active:text-red-700 drop-shadow-lg transition duration-500 scroll-transition"
+                                        class="text-base font-semibold text-primary py-2 mx-8 group-hover:text-cyan-500 flex group-active:text-cyan-300 drop-shadow-lg transition duration-500 scroll-transition"
                                         >Contact</a
                                     >
                                 </li>
@@ -80,43 +80,45 @@
             <div class="container">
                 <div class="flex flex-wrap">
                     <div class="self-center w-full px-4 lg:w-1/2">
-                        <h1 class="font-bold text-3xl lg:text-4xl drop-shadow-md">
+                        <h1 class="font-bold text-3xl lg:text-4xl drop-shadow-md text-primary">
                             Vincent Muliawan
                         </h1>
-                        <h2 class="mb-2 font-medium lg:text-2xl">
-                            Someone who call him self a
-                            <span class="italic font-bold">Web Developer</span>
+                        <h2 class="mb-2 font-medium lg:text-2xl typing-container text-primary">
+                            Someone who call himself
+                                <span class="italic font-bold ml-1" id="sentence" name="sentence"></span>
+                                <span id="feature-text"></span>
+                                <span class="input-cursor"></span>
                         </h2>
                         <h2 class="text-primary font-bold mb-5 lg:text-2xl lg:mb-7">
-                            Percaya, namun jangan <span>berekspektasi apapun.</span>
+                            "Die as a Hero or Living until you see yourself as a Villain"
                         </h2>
                         <a
                             href="#about"
-                            class="text-base font-semibold bg-primary px-5 py-2 text-white rounded-full hover:bg-red-600 hover:shadow-lg transition duration-300 ease-in-out lg:text-xl"
-                            >Ayo Mulai</a
+                            class="text-base font-semibold bg-cyan-300 px-5 py-2 text-zinc-800 rounded-full hover:bg-cyan-600 hover:text-primary hover:shadow-lg transition duration-300 ease-in-out lg:text-xl"
+                            >Lets GO!</a
                         >
                     </div>
-                    <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="w-full self-center px-4 lg:w-1/2">
                         <div class="mt-2 relative lg:right-0">
                             <img
-                                src="dist/img/piem.png"
+                                src="dist/img/piem2.png"
                                 alt=""
                                 class="mx-auto max-w-full"
-                                width="300"
-                                height="300"
+                                width="400"
+                                height="400"
                             />
 
                             <span class="absolute -bottom-0 left-1/2 -translate-x-1/2 -z-10">
                                 <svg
-                                    width="300"
-                                    height="300"
+                                    width="400"
+                                    height="400"
                                     viewBox="0 0 200 200"
                                     xmlns="http://www.w3.org/2000/svg"
                                 >
                                     <path
-                                        fill="#EF4444"
+                                        fill="#67e8f9"
                                         d="M35.7,-44.3C50.2,-30.4,68.7,-22.9,69.1,-13.3C69.4,-3.8,51.6,7.9,41.6,22.9C31.6,37.9,29.4,56.3,19.1,65.8C8.9,75.2,-9.4,75.7,-22.5,68.2C-35.6,60.7,-43.5,45.2,-54.8,29.7C-66.1,14.2,-80.8,-1.3,-81.4,-17.1C-81.9,-33,-68.3,-49.1,-52.4,-62.8C-36.5,-76.6,-18.2,-87.9,-3.8,-83.3C10.6,-78.8,21.2,-58.3,35.7,-44.3Z"
-                                        transform="translate(100 100) scale(1.1)"
+                                        transform="translate(110 120) scale(1.3)"
                                     />
                                 </svg>
                             </span>
@@ -131,31 +133,38 @@
         <section class="pt-24 pb-20" id="about">
             <div class="container">
                 <div class="flex flex-wrap">
-                    <div class="self-center w-full px-4 lg:w-1/2">
+                    <div class="self-center w-full px-4 lg:w-1/2 md:mb-6 sm:mb-6 mb-about">
                         <h2 class="pb-3">
                             <span
                                 class="font-bold text-xl text-primary drop-shadow-md uppercase lg:text-2xl"
-                                >Tentang Saya</span
+                                >About</span
                             >
                         </h2>
-                        <h3 class="font-bold drop-shadow-md pb-2 text-2xl lg:text-3xl max-w-sm">
-                            Hanya siswa SMK dari jurusan RPL
-                        </h3>
-                        <p class="font-medium text-justify lg:text-lg">
-                            yang mengira bahwa Rekayasa Perangkat Lunak tidak berhubungan dengan
-                            Matematika. Walaupun dijalani-nya cukup sulit namun terasa menyenangkan
-                            karena Worth it:D
+                        
+                        <p class="font-medium text-justify lg:text-lg text-primary">
+                            Hai, saya Vincent Muliawan seorang siswa SMK dengan kemampuan belajar auditori.<br>
+                            Saya sangat senang belajar lewat media suara dan juga gambar atau bisa disebut juga video.
+                            <br>
+                            <br>
+                            Sangat merasa tertantang didalam dunia IT & Programming khusus nya Web Development Frontend
+                            dan juga Backend. Saya mempelajari dan juga menguasai skill set pada Web Development seperti
+                            HTML, CSS, Javascript, PHP, dan MySQL.
                         </p>
                     </div>
-                    <div class="w-full px-4 lg:w-1/2 mt-6 pt-6">
-                        <h2 class="font-bold text-2xl mb-2 drop-shadow-md lg:text-3xl">
-                            Ayo kenalan:3
+                    <div class="w-full px-4 lg:w-1/2 ">
+                        <h2 class="pb-3">
+                            <span
+                                class="font-bold text-xl text-primary drop-shadow-md uppercase lg:text-2xl"
+                                >Biodata</span
+                            >
                         </h2>
-                        <h3 class="font-medium text-justify lg:text-lg text-base">
-                            Saya memiliki beberapa akun sosial media jika ingin berkenalan dengan
-                            saya kamu bisa membuka salah satu sosial media saya berikut
-                        </h3>
-                        <div class="flex items-center">
+                        <p class="text-primary font-medium text-lg w-full mb-3">Age<span class="ml-16">: 17</span></p>
+                        <p class="text-primary font-medium text-lg w-full mb-3">Email<span class="ml-12">: vmuliawan29@gmail.com</span></p>
+                        <p class="text-primary font-medium text-lg w-full mb-3">Phone<span class="ml-10">: +62 - 8597- 258 - 1456</span></p>
+                        <p class="text-primary font-medium text-lg w-full mb-3">Address <span class="ml-5">: </span><span class=""><a href="https://goo.gl/maps/mC7ahjuhXWXg6y4M6" target="_blank" class="text-cyan-300 hover:text-cyan-600">Jl.Kisamaun, RT.004/RW.001, Tangerang</a></span></p>
+                        <p class="text-primary font-medium text-lg w-full mb-3">Language<span class="ml-3">: Indonesia, English</span></p>
+                       
+                        <!-- <div class="flex items-center">
                             <a
                                 href="https://web.facebook.com/vmuliawan.vmuliawan/"
                                 class="hover:opacity-80 active:opacity-100 hover:shadow-lg transition duration-500 rounded-xl active:shadow-sm"
@@ -235,12 +244,78 @@
                                     />
                                 </svg>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </section>
         <!-- About Section End -->
+
+        <!-- Progress Bar Section -->
+        <section class="pt-5 pb-20">
+            <div class="container">
+                <h2 class="text-2xl font-bold uppercase mb-5 text-primary text-center">Progress skill</h2>
+                <p class="text-primary font-semibold" style="font-size: 20px;">HTML <span class="ml-auto">95%</span></p>
+                <div class="h-4 bg-primary mb-5">
+                    <div class="bg-cyan-400 h-4" style="width: 95%;"></div>
+                </div>
+                <p class="text-primary font-semibold" style="font-size: 20px;">CSS <span class="ml-auto">90%</span></p>
+                <div class="h-4 bg-primary mb-5">
+                    <div class="bg-cyan-400 h-4" style="width: 90%;"></div>
+                </div>
+                <p class="text-primary font-semibold" style="font-size: 20px;">Javascript <span class="ml-auto">70%</span></p>
+                <div class="h-4 bg-primary mb-5">
+                    <div class="bg-cyan-400 h-4" style="width: 70%;"></div>
+                </div>
+                <p class="text-primary font-semibold" style="font-size: 20px;">PHP <span class="ml-auto">80%</span></p>
+                <div class="h-4 bg-primary mb-5">
+                    <div class="bg-cyan-400 h-4" style="width: 80%;"></div>
+                </div>
+                <p class="text-primary font-semibold" style="font-size: 20px;">MySQL <span class="ml-auto">80%</span></p>
+                <div class="h-4 bg-primary mb-5">
+                    <div class="bg-cyan-400 h-4" style="width: 80%;"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Progress Bar Section End -->
+
+        <!-- Card School Section -->
+        <section class="pt-15 pb-20">
+            <div class="container">
+                <h2 class="text-2xl font-bold uppercase mb-10 mt-5 text-primary text-center">Education</h2>
+                <div class="flex flex-wrap justify-around">
+                    <div class="card bg-primary rounded-sm relative sm:m-5 md:m-5 mb-card w-full" style="width: 300px; height: 320px;">
+                        <img src="dist/img/buddhi.png" alt="" width="300px" style="position: absolute; top: 5%; left:1%">
+                        <div class="card-body p-3" style="position: absolute; top:50%;left: 11%;">
+                        <p class="text-xl text-zinc-800 font-semibold">SD Perguruan Buddhi</p>
+                        <div class="flex justify-center mt-5">
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjUyN6fh9v6AhUoAbcAHegZCeAQFnoECAkQAQ&url=https%3A%2F%2Fsd.buddhischool.sch.id%2F&usg=AOvVaw1diLQ16Bw-_BOUZS6PjZf6" target="_blank"><button class="bg-cyan-500 rounded-md text-zinc-900 font-semibold pt-2 pb-2 pl-5 pr-5 hover:bg-cyan-700 hover:text-primary transition duration-300">Visit</button></a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card bg-primary rounded-sm relative sm:m-5 md:m-5 mb-card" style="width: 300px; height: 320px;">
+                        <img src="dist/img/smp16.jpg" alt="" width="130px" style="position: absolute; top: 5%; left:28%">
+                        <div class="card-body p-3" style="position: absolute; top:50%;left: 14%;">
+                        <p class="text-xl text-zinc-800 font-semibold">SMPN 16 Tangerang</p>
+                        <div class="flex justify-center mt-5">
+                        <a href="https://smpn16tangerang.sch.id/16/" target="_blank"><button class="bg-cyan-500 rounded-md text-zinc-900 font-semibold pt-2 pb-2 pl-5 pr-5 hover:bg-cyan-700 hover:text-primary transition duration-300">Visit</button></a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card bg-primary rounded-sm relative sm:m-5 md:m-5 mb-card" style="width: 300px; height: 320px;">
+                        <img src="dist/img/smk4.png" alt="" width="120px" style="position: absolute; top: 5%; left:28%">
+                        <div class="card-body p-3" style="position: absolute; top:50%;left: 15%;">
+                        <p class="text-xl text-zinc-800 font-semibold text-center">SMKN 4 Tangerang</p>
+                        <div class="flex justify-center mt-5">
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjEranTitv6AhXmTmwGHWKVBycQFnoECAoQAQ&url=https%3A%2F%2Fsmkn4-tng.sch.id%2F&usg=AOvVaw1mPedutUMytdGFKUaW_ZlN" target="_blank"><button class="bg-cyan-500 rounded-md text-zinc-900 font-semibold pt-2 pb-2 pl-5 pr-5 hover:bg-cyan-700 hover:text-primary transition duration-300">Visit</button></a>
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Card School Section End -->
 
         <!-- Geometry waves -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -259,7 +334,7 @@
                     <div class="mx-auto text-center mb-5 max-w-md">
                         <h2 class="mb-2">
                             <span
-                                class="font-bold text-primary uppercase text-lg lg:text-xl drop-shadow-md"
+                                class="font-bold text-zinc-900 uppercase text-lg lg:text-xl drop-shadow-md"
                                 >Portfolio</span
                             >
                         </h2>
@@ -351,7 +426,7 @@
                                 repository saya di
                                 <a
                                     href="https://github.com/vmuliawan"
-                                    class="hover:text-red-600 text-primary transition duration-300"
+                                    class="hover:text-cyan-400 text-cyan-800 transition duration-300"
                                     target="_blank"
                                     >https://github.com/vmuliawan</a
                                 >
@@ -405,11 +480,11 @@
                             >
                         </h2>
                         <h1 class="mb-1">
-                            <span class="font-bold drop-shadow-md text-2xl lg:text-3xl"
+                            <span class="font-bold text-primary drop-shadow-md text-2xl lg:text-3xl"
                                 >Hubungi Saya</span
                             >
                         </h1>
-                        <p class="text-base font-medium drop-shadow-md">
+                        <p class="text-base text-primary font-medium drop-shadow-md">
                             Jika sangat Urgent tolong hubungi saya lewat section ini Terima kasih:D
                         </p>
                     </div>
@@ -422,7 +497,7 @@
                                 type="text"
                                 autocomplete="off"
                                 id="name"
-                                class="w-full bg-slate-200 rounded-lg p-3 text-black focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary mb-5 drop-shadow-sm focus:drop-shadow-xl"
+                                class="w-full bg-slate-200 rounded-lg p-3 text-black focus:outline-none focus:ring-cyan-300 focus:ring-1 focus:border-primary mb-5 drop-shadow-sm focus:drop-shadow-xl"
                             />
                             <label for="email" class="font-bold text-primary text-base"
                                 >Email</label
@@ -431,7 +506,7 @@
                                 type="email"
                                 autocomplete="off"
                                 id="email"
-                                class="w-full bg-slate-200 rounded-lg p-3 text-black focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary mb-5 drop-shadow-sm focus:drop-shadow-xl"
+                                class="w-full bg-slate-200 rounded-lg p-3 text-black focus:outline-none focus:ring-cyan-300 focus:ring-1 focus:border-primary mb-5 drop-shadow-sm focus:drop-shadow-xl"
                             />
                             <label for="alamat" class="font-bold text-primary text-base"
                                 >Alamat</label
@@ -441,10 +516,11 @@
                                 id="alamat"
                                 cols="30"
                                 rows="5"
-                                class="w-full bg-slate-200 rounded-lg p-3 text-black focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary drop-shadow-sm focus:drop-shadow-xl mb-5"
+                                class="w-full bg-slate-200 rounded-lg p-3 text-black focus:outline-none focus:ring-cyan-300 focus:ring-1 focus:border-primary drop-shadow-sm focus:drop-shadow-xl mb-5"
                             ></textarea>
                             <button
-                                class="bg-primary text-white font-bold text-lg py-1 rounded-lg w-full hover:bg-red-600 hover:shadow-lg transition duration-300 ease-in-out active:bg-primary"
+                                class="bg-cyan-400 text-zinc-900 font-bold text-lg py-1 rounded-lg w-full hover:bg-cyan-700 hover:shadow-lg transition duration-300 ease-in-out active:bg-cyan-400
+                                hover:text-primary"
                             >
                                 Submit
                             </button>
@@ -620,6 +696,7 @@
             </div>
         </section>
         <!-- Footer Section End -->
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
         <script src="dist/js/script.js"></script>
     </body>
 </html>
